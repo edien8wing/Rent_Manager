@@ -1,0 +1,32 @@
+.pricesNum{
+  color:#555;
+  font-family: fantasy;
+    text-align: right;
+}
+.row_bottom10{
+  margin-bottom:10px;
+}
+.row_bottom0{
+  margin-bottom:0px;
+}
+.rightTitle{
+  text-align:right;
+  weight:55;
+}
+.infoWord{
+  color:#8c8c8c;
+  font-family: cursive;
+
+}
+.red{
+  color:#cf1322;
+}
+.green{
+  color:#389e0d;
+}
+.blue{
+  color:#0050b3;
+}
+.gray{
+  color:#8c8c8c;
+}

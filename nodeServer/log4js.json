@@ -1,0 +1,19 @@
+{
+    "appenders": {
+        "ruleConsole": {
+          "type": "console",
+          "category": "console"
+      },
+        "ruleFile": {
+            "type": "dateFile",
+            "filename": "./log/server-",
+            "pattern": "yyyy-MM-dd.log",
+            "maxLogSize": 10000000,
+            "numBackups": 3,
+            "alwaysIncludePattern": true
+        }
+    },
+    "categories": {
+        "default": {"appenders": ["ruleConsole", "ruleFile"], "level": "info"}
+    }
+}

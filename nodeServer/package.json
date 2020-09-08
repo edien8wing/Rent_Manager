@@ -1,0 +1,25 @@
+{
+  "name": "nodeserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "docxtemplater": "^3.17.8",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "log4js": "^2.4.1",
+    "moment": "^2.27.0",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.10",
+    "pizzip": "^3.0.6",
+    "serve-favicon": "~2.4.5",
+    "stream-buffers": "^3.0.2"
+  }
+}

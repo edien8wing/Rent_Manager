@@ -1,0 +1,42 @@
+.RoomRow {
+  border: 1px solid blue;
+  margin: 5px;
+  float: right;
+  width: 100%;
+}
+.hasNoPart_B {
+  text-align: center;
+  padding: 5;
+  border: "1px solid black";
+  background-color: #999;
+  color: white;
+  overflow: hidden;
+}
+.hasPart_B {
+  text-align: center;
+  padding: 5;
+  border: "1px solid black";
+  background-color: #44bba3;
+  color: white;
+  overflow: hidden;
+}
+.willLeave {
+  text-align: center;
+  padding: 5;
+  border: "1px solid black";
+  background-color: #792929;
+  color: white;
+  overflow: hidden;
+}
+.approvaling {
+  text-align: center;
+  padding: 5;
+  border: "1px solid black";
+  background-color: #7c7407;
+  color: white;
+  overflow: hidden;
+}
+.roomName {
+  overflow: hidden;
+  height: 38px;
+}

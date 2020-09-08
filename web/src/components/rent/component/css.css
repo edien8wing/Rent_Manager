@@ -1,0 +1,17 @@
+.billRowStyle {
+  border: 1px solid rgb(190, 233, 250);
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-radius: 5px;
+}
+.rowTitle {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(16, 142, 233);
+}
+.payModaldiv {
+  color: rgb(16, 142, 233);
+  font-size: 18px;
+  font-weight: bold;
+}
