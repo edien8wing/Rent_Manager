@@ -9,7 +9,7 @@
 开源本项目是为市面上的租赁管理软件提供一种设计管理思路。本项目遵循Apache Licence开源协议。
 
 #下面是部分界面图片：
-!!https://github.com/edien8wing/Rent_Manager/blob/master/demoIMG-01.jpg
+!界面图片(https://github.com/edien8wing/Rent_Manager/blob/master/demoIMG-01.jpg)
 
 #介绍及指引：
 后端：
