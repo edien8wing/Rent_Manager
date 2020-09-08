@@ -5,7 +5,8 @@
 
 #注意：
 早期版本未作用户安全控制，请在安全环境中测试使用，
-开源本项目是为市面上的租赁管理软件提供一个设计管理思路，
+作者原为地产公司IT负责人，因为市面上地产管理存在软件或过于繁琐，或功能简单，或者无法调用接口等问题。因此业务时间内写的本管理工具。
+开源本项目是为市面上的租赁管理软件提供一种设计管理思路。本项目遵循Apache Licence开源协议。
 
 #下面是部分界面图片：
 !!https://github.com/edien8wing/Rent_Manager/blob/master/demoIMG-01.jpg
@@ -31,10 +32,23 @@ building-guid是用原生js编写的看板程序。每隔一定时间向后端�
 1：在dingding后台填写通信白名单
 2：将申请到的appkey 和 appSecret填写到nodeServer/bin/dingApi.js
 3:在dingding后台增加下述审批：
+
     1：钉钉合同签订审批
-    
+    https://github.com/edien8wing/Rent_Manager/blob/master/IMG/%E5%BB%BA%E7%AB%8B%E5%AE%A1%E6%89%B9.jpg
     2：钉钉乙方变更审批
-    
+    https://github.com/edien8wing/Rent_Manager/blob/master/IMG/%E6%9B%B4%E5%90%8D.jpg
     3：钉钉退租审批
-    
+    https://github.com/edien8wing/Rent_Manager/blob/master/IMG/%E9%80%80%E7%A7%9F.jpg
     4：金额到账审批
+    https://github.com/edien8wing/Rent_Manager/blob/master/IMG/%E9%80%80%E7%A7%9F.jpg
+
+并将上述流程的process-code 更改到 nodeServer/bin/dingApi.js中
+4 将所需审批的员工的dingID和depID更新到系统权限中
+
+关于导出文件：
+    导出模板位置在nodeServer/Template/ 目录下，可以更改文字但不要更改格式及参数
+
+
+
+说明中可能有遗漏的方面，留下联系方式以便交流：
+微信、手机：15000640278。 邮箱101072765@qq.com
