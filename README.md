@@ -9,7 +9,7 @@
 开源本项目是为市面上的租赁管理软件提供一种设计管理思路。本项目遵循Apache Licence开源协议。
 
 #下面是部分界面图片：
-!界面图片(https://github.com/edien8wing/Rent_Manager/blob/master/demoIMG-01.jpg)
+![界面图片](https://github.com/edien8wing/Rent_Manager/blob/master/demoIMG-01.jpg)
 
 #介绍及指引：
 后端：
@@ -51,4 +51,4 @@ building-guid是用原生js编写的看板程序。每隔一定时间向后端�
 
 
 说明中可能有遗漏的方面，留下联系方式以便交流：
-微信、手机：15000640278。 邮箱101072765@qq.com
+    微信、手机：15000640278。 邮箱101072765@qq.com
